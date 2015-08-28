@@ -1,0 +1,68 @@
+/*div{
+color:pink;
+}*/
+.prod-cat-sidebar{
+    /*Part1/2. Need to use this to fix categories always on left*/
+	position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;   
+    width:20%;
+}
+.prod-cat-inner{
+    /*Part2/2. Need to use this to fix categories on left*/
+	margin-left:20%;
+    width:80%;
+}
+.prod-cat-item{
+    /* hard code to have width 217px*/
+    width: 200px;
+    padding: 5px;
+    border: 2px solid lightgray;
+    margin: 5px; 
+	display:inline-block;
+}
+
+.upcp-prod-desc-custom-fields{
+  color:lightgray;
+ }
+ .prod-cat-title{
+    border-bottom: thin solid lightgray;
+ }
+
+.prod-cat-thumb-image{
+   /*As image have background gray border in percentage, this workaround helped me to center image*/
+   max-width:75%;
+   border: 25px solid #e8e8e8;
+   background-color: green;
+   background: no-repeat scroll right center #e8e8e8;
+}
+
+.upcp-catalogue-link{
+	text-decoration: none;
+	color: #B8DBFF;
+	font-family: Verdana, sans-serif;
+	/*To put our link in one line*/
+	clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+	float:right;
+}
+.prod-cat-price{
+display:inline;
+color:#ADEBEB;
+}
+/* To hide details*/
+.prod-cat-category-jquery{
+display:none;
+}
+.prod-cat-subcategory-jquery{
+display:none;
+}
+.prod-cat-tag-jquery{
+display:none;
+}
+.prod-cat-title-jquery{
+display:none;
+}
